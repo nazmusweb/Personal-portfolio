@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html{
+    font-size: 100%;
+}
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -8,13 +11,13 @@ p{
     color: dimgray;
 }
 h1{
-    font-size: 4em;
+    font-size: 4rem;
 }
 .id{
-    font-size: 2em;
+    font-size: 2rem;
 }
 h2{
-    font-size: 3em;
+    font-size: 3rem;
 }
 #one{
     color: orange;
@@ -22,9 +25,9 @@ h2{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5.2em;
-    padding-left: 2.4em;
-    padding-right: 2em;
+    margin-left: 5.2rem;
+    padding-left: 2.4rem;
+    padding-right: 2rem;
 }
 .half-width img{
     width: 90%;
@@ -34,15 +37,15 @@ h2{
     background-repeat: no-repeat;
 }
 section{
-    height: 40em;
-    padding-bottom: 6em;
+    height: 40rem;
+    padding-bottom: 6rem;
 }
 .link{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     margin-left: 0;
-    padding: 0.4em 0.8em;
-    border-radius: 0.4em;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
     color: white;
     font-weight: 700;
 }
@@ -54,8 +57,8 @@ section{
 }
 
 .shadow{
-    box-shadow: 1em 1em 2.5em gray;
-    border-radius: 1em;
+    box-shadow: 1rem 1rem 2.5rem gray;
+    border-radius: 1rem;
     height: 60%;
     background-color: white;
 }
@@ -67,17 +70,37 @@ section{
 }
 
 #box1{
-    border-left: 0.6em solid;
+    border-left: 0.6rem solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
 
 }
 #box2{
-    border-left: 0.6em solid;
+    border-left: 0.6rem solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
 footer p{
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
+}
+@media(max-width:1280px) {
+    html{
+        font-size: 70%;
+    }
+}
+@media(max-width:1080px) {
+    html{
+        font-size: 60%;
+    }
+}
+@media(max-width:800px) {
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width:720px) {
+    html{
+        font-size: 40%;
+    }
 }
