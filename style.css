@@ -87,14 +87,8 @@ footer p{
     text-align: center;
     font-size: 1rem;
 }
-@media(max-width:412px) {
-    html{
-        font-size: 26%;
-    }
-}
-
 @media(max-width:393px) {
     html{
-        font-size: 16%;
+        font-size: 24%;
     }
 }
