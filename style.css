@@ -23,7 +23,7 @@ h2{
     color: orange;
 }
 .half-width{
-    width: 40%;
+    width: 47rem;
     float: left;
     margin-left: 5.2rem;
     padding-left: 2.4rem;
@@ -59,7 +59,7 @@ section{
 .shadow{
     box-shadow: 1rem 1rem 2.5rem gray;
     border-radius: 1rem;
-    height: 70%;
+    height: 26rem;
     background-color: white;
 }
 
@@ -89,6 +89,11 @@ footer p{
 }
 @media(max-width:393px) {
     html{
-        font-size: 24%;
+        font-size: 34%;
+    }
+    footer p{
+        position: absolute;
+        left: 26rem;
+        bottom: -50rem;
     }
 }
