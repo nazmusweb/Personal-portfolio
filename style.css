@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 4em;
+}
+#one{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 9em;
+    padding-left: 2em;
+}
+.half-width img{
+    width: 80%;
+}
